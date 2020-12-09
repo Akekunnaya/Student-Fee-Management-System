@@ -46,7 +46,8 @@ public class pendingfeestudent extends javax.swing.JFrame {
         jpas = new javax.swing.JPasswordField();
         jButton2 = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Pending Fee");
 
         jpendingfee.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         jpendingfee.setText("Pending Fee");

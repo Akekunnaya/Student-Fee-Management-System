@@ -36,6 +36,7 @@ public class ForgotPassword extends javax.swing.JFrame {
         jemail = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Forgot Password");
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 28)); // NOI18N
         jLabel1.setText("Forgot Password");
@@ -153,9 +154,6 @@ public class ForgotPassword extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JButton jback;
-    private javax.swing.JButton jback1;
-    private javax.swing.JButton jback2;
     private javax.swing.JTextField jemail;
     private javax.swing.JTextField jroll;
     // End of variables declaration//GEN-END:variables

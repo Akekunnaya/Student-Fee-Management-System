@@ -45,6 +45,7 @@ public class DeleteAdmin extends javax.swing.JFrame {
         jback = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Delete Admin");
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         jLabel1.setText("Delete Admin");

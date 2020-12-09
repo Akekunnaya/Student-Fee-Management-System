@@ -50,6 +50,10 @@ public class AddAdmin extends javax.swing.JFrame {
         jback = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Add Admin");
+        setBackground(new java.awt.Color(102, 102, 255));
+        setForeground(java.awt.Color.darkGray);
+        setSize(new java.awt.Dimension(400, 400));
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         jLabel1.setText("Add Admin");

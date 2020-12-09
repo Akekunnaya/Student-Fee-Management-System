@@ -44,6 +44,7 @@ public class FeeStructure extends javax.swing.JFrame {
         jtxtfield = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Fee Structure");
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         jLabel1.setText("Fee Structure");

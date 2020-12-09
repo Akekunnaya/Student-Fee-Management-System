@@ -45,7 +45,8 @@ public class updatefee extends javax.swing.JFrame {
         jpendingfee = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Update Fee");
 
         jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 28)); // NOI18N
         jLabel3.setText("Roll No");

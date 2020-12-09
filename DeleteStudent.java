@@ -44,7 +44,8 @@ public class DeleteStudent extends javax.swing.JFrame {
         jtxtfield = new javax.swing.JTextArea();
         jdelete = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Delete Student");
 
         jback.setFont(new java.awt.Font("Times New Roman", 1, 28)); // NOI18N
         jback.setText("Back");
